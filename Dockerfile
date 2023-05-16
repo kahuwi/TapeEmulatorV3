@@ -45,3 +45,6 @@ RUN usermod -s /bin/bash user
 
 CMD ["/usr/sbin/sshd", "-D", "-e", "-f", "/etc/ssh/sshd_config_test_clion"]
 
+RUN git clone --branch BB61-V1 https://github.com/kahuwi/TapeEmulatorV3.git
+
+
