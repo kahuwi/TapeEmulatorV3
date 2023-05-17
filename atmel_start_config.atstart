@@ -15,7 +15,7 @@ versions:
   version_frontend: ''
 board:
   identifier: CustomBoard
-  device: SAMD51J20A-AF
+  device: SAME51J19A-AU
 details: null
 application: null
 middlewares:
