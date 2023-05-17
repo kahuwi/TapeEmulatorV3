@@ -108,7 +108,7 @@ middlewares:
 drivers:
   CMCC:
     user_label: CMCC
-    definition: Atmel:SAMD51_Drivers:0.0.1::SAMD51J20A-AF::CMCC::driver_config_definition::CMCC::HAL:HPL:CMCC
+    definition: Atmel:SAME51_Drivers:0.0.1::SAME51J19A-AU::CMCC::driver_config_definition::CMCC::HAL:HPL:CMCC
     functionality: System
     api: HAL:HPL:CMCC
     configuration:
@@ -124,7 +124,7 @@ drivers:
       domain_group: null
   DMAC:
     user_label: DMAC
-    definition: Atmel:SAMD51_Drivers:0.0.1::SAMD51J20A-AF::DMAC::driver_config_definition::DMAC::HAL:HPL:DMAC
+    definition: Atmel:SAME51_Drivers:0.0.1::SAME51J19A-AU::DMAC::driver_config_definition::DMAC::HAL:HPL:DMAC
     functionality: System
     api: HAL:HPL:DMAC
     configuration:
