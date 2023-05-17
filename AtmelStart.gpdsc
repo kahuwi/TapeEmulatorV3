@@ -12,7 +12,7 @@
   <generators>
     <generator id="AtmelStart">
       <description>Atmel Start</description>
-      <select Dname="ATSAME51J19A" Dvendor="Atmel:3"/>
+      <select Dname="ATSAMD51J20A" Dvendor="Atmel:3"/>
       <command>http://start.atmel.com/</command>
       <files>
         <file category="generator" name="atmel_start_config.atstart"/>
@@ -27,13 +27,13 @@
       <require Cclass="Device" Cgroup="Startup" Cversion="1.2.0"/>
     </condition>
     <condition id="ARMCC, GCC, IAR">
-      <require Dname="ATSAME51J19A"/>
+      <require Dname="ATSAMD51J20A"/>
       <accept Tcompiler="ARMCC"/>
       <accept Tcompiler="GCC"/>
       <accept Tcompiler="IAR"/>
     </condition>
     <condition id="GCC">
-      <require Dname="ATSAME51J19A"/>
+      <require Dname="ATSAMD51J20A"/>
       <accept Tcompiler="GCC"/>
     </condition>
   </conditions>
